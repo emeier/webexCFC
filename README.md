@@ -6,14 +6,14 @@ ColdFusion wrapper for the <a href="http://developer.cisco.com/web/webex-develop
 Installation
 ------------
 
-Copy the 'webex' folder into your webroot
+Copy the 'webex' folder into your webroot.
 
 Usage
 -----
 
 Create a WebEx client in the application scope.
 
-  <cfset application.webEx = CreateObject("component","webex.WebEx").init("username", "password", "sitename") />
+        <cfset application.webEx = CreateObject("component","webex.WebEx").init("username", "password", "sitename") />
 
 After creating the client, you can start to make requests.
 
